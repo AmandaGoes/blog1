@@ -1,0 +1,99 @@
+.fpop-up{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(59, 59, 59, 0.493);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+}
+#fundo2{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(197, 190, 190, 0.493);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+}
+.btnFechar{
+   
+   margin-left:85%;
+}
+.btnSubirPOP{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f56a6a;
+    background-image: url(setaCima.png);
+    margin-left: 80%;
+}
+.btnEnviar{
+    margin-left: 5px;
+    margin-top: 15px
+}
+.pop-up{
+    width: 35%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    padding: 12px;
+    display:block;
+}
+#pop{
+    width: 35%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    padding: 12px;
+    display:block;
+
+}
+.vtbutton{
+    width:200px;
+    height: 200px;
+    border: 0;
+}
+.tr1{
+    width: 100vw;
+    background-color: #f56a6a;
+}
+.th1{
+    width: 100vw;
+    color: white;
+}
+.txt{
+    width: 10%;
+    height: 20px;
+    border-radius: 10px 10px;
+}
+.txtNome{
+    border: 1px solid rgb(219, 216, 216);
+    width: 100%;
+    height: 35px;
+    border-radius: 3px 3px 3px 3px ;
+    padding: 10px;
+}
+.btnExcluir{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(lixc.png);
+}
+.btnAtualizar{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-image: url(edit.png);
+}
+.btnAdcionar{
+
+    background-color: #f1d1d1b0;
+    border-radius: 20px 20px;
+}
+.Entra{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(228, 222, 222);
+    border: 1px solid  #f1d1d1b0 ;
+}
